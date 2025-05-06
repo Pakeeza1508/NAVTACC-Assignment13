@@ -1,23 +1,50 @@
+
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>JS Assignment</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
   </head>
-  <body>
-    
-    <h1>Choose an Action</h1>
-    <button class="btn btn-info" onclick="calculator()">Run Calculator</button>
-    <button class="btn btn-info" onclick="calculateAverageAge()">Run Average Age</button>
-    <button class="btn btn-info" onclick="separateDigits()">Run to separate digits</button>
-    <button class="btn btn-info" onclick="circle()">Run for circle</button>
-    <button class="btn btn-info" onclick="shoppingCart()">Run for shopping</button>
-    <button class="btn btn-info" onclick="calculateBMI()">Run for BMI</button>
+  <body class="bg-light">
 
+    <div class="container py-5">
+      <div class="text-center mb-4">
+        <h1 class="fw-bold text-primary">JavaScript Assignment</h1>
+        <p class="text-muted">Choose an action below to run a function</p>
+      </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
-</body>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
+        <div class="col"><button class="btn btn-info w-100" onclick="calculator()">Run Calculator</button></div>
+        <div class="col"><button class="btn btn-info w-100" onclick="calculateAverageAge()">Run Average Age</button></div>
+        <div class="col"><button class="btn btn-info w-100" onclick="separateDigits()">Run to Reversed Separate Digits</button></div>
+        <div class="col"><button class="btn btn-info w-100" onclick="circle()">Run for Circle</button></div>
+        <div class="col"><button class="btn btn-info w-100" onclick="shoppingCart()">Run for Shopping</button></div>
+        <div class="col"><button class="btn btn-info w-100" onclick="calculateBMI()">Run for BMI</button></div>
+        <div class="col"><button class="btn btn-info w-100" onclick="enhancedBMI()">Run for Enhanced BMI</button></div>
+        <div class="col"><button class="btn btn-info w-100" onclick="tweetChecker()">Run for Tweet Check</button></div>
+        <div class="col"><button class="btn btn-info w-100" onclick="pizzaOrder()">Run to Order a Pizza</button></div>
+        <div class="col"><button class="btn btn-info w-100" onclick="weeksLeft()">Run for Your Weeks Left</button></div>
+      </div>
+
+      <div class="mt-5 mb-3">
+        <h2 class="text-secondary">Functions with Parameters</h2>
+      </div>
+
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
+        <div class="col"><button class="btn btn-warning w-100" onclick="checkColor()">Run for Color Check</button></div>
+        <div class="col"><button class="btn btn-warning w-100" onclick="takeNumber()">Run for Even Number</button></div>
+        <div class="col"><button class="btn btn-warning w-100" onclick="age()">Run for Life Phase</button></div>
+        <div class="col"><button class="btn btn-warning w-100" onclick="inputGrades()">Run for Grades</button></div>
+        <div class="col"><button class="btn btn-warning w-100" onclick="takeArray()">Run for Reversed Array</button></div>
+        <div class="col"><button class="btn btn-warning w-100" onclick="showQuarterMonths()">Run for Months Quarter</button></div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script1.js"></script>
+    <script src="script2.js"></script>
+    <script src="script3.js"></script>
+  </body>
 </html>
